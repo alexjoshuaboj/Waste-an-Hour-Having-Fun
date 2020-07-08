@@ -1,0 +1,58 @@
+<!-- Painting the 3 available games, I could put them on my back and make the page scalable -->
+<div class="container">
+    <div class="row">
+        <div>
+            <button class="btnPlay btn" data-toggle="modal" data-target="#pptModal">Play</button>
+            <img class="gameimg" src="../../assets/ppt.png">
+        </div>
+        <div>
+            <button class="btnPlay btn" data-toggle="modal" data-target="#pptlsModal">Play</button>
+            <img class=" gameimg" src="../../assets/pptls.png">
+        </div>
+    </div>
+
+    <!-- Modal PPT-->
+    <div class="modal fade" id="pptModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Game options</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="playPPT()">Player vs
+                        Computer</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"
+                        (click)="playPPTCpuVSCpu()">Computer vs
+                        Computer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal PPTLS-->
+    <div class="modal fade" id="pptlsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Game options</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="playPPTLS()">Player vs
+                        Computer</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"
+                        (click)="playPPTLSCpuVSCpu()">Computer vs
+                        Computer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

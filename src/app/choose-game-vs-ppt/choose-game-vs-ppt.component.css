@@ -1,0 +1,36 @@
+p{
+    color: #990101;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.pointer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img{
+    width: 90px;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+}
+
+.resultGame{
+    text-align: center;
+    margin-right: 44px;
+}

@@ -1,0 +1,13 @@
+.navigator .nav li a{
+    color: #990101;
+    font-weight: bold;
+}
+
+.content span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: lighter;
+}
+

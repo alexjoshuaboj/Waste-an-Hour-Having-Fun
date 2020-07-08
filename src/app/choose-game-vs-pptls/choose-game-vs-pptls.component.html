@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="resultGame">
+        <p>{{this.resultGame}}</p>
+    </div>
+    <div class="pointer mt-5">
+        <h3>Player : {{ this.choicePlayer }}</h3>
+        <p>{{this.player}}</p>
+        <p>vs</p>
+        <p>{{this.computerR}}</p>
+        <h3>Computer : {{ this.choiceCPU }}</h3>
+    </div>
+    <div class="row">
+        <div class="player mt-5">
+            <button (click)="option(0)"><img src="../../assets/hands/paper.png"></button>
+            <button (click)="option(1)" class="mt-2"><img src="../../assets/hands/scissors.png"></button>
+            <button (click)="option(2)" class="mt-2"><img src="../../assets/hands/rock.png"></button>
+            <button (click)="option(3)" class="mt-2"><img src="../../assets/hands/spock.png"></button>
+            <button (click)="option(4)" class="mt-2"><img src="../../assets/hands/wizard.png"></button>
+        </div>
+        <div class="computer mt-5">
+            <button><img src="../../assets/hands/paper.png"></button>
+            <button class="mt-2"><img src="../../assets/hands/scissors.png"></button>
+            <button class="mt-2"><img src="../../assets/hands/rock.png"></button>
+            <button class="mt-2"><img src="../../assets/hands/spock.png"></button>
+            <button class="mt-2"><img src="../../assets/hands/wizard.png"></button>
+        </div>
+    </div>
+</div>

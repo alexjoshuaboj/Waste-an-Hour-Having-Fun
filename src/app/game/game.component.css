@@ -1,0 +1,42 @@
+.btnPlay{
+    color: #990101;
+    font-size: larger;
+    font-weight: bold;
+}
+
+h3{
+    color: white;
+}
+
+.gameimg{
+    max-width: 170px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25%;
+}
+
+.comingsoon{
+    opacity: 70%;
+}
+
+.comingsoon p{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.modal .modal-dialog .modal-content{
+    background-color: rgba(123, 141, 234, 0.3);
+}
+
+.modal-title{
+    color: #990101;
+}
